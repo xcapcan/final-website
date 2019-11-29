@@ -1,0 +1,55 @@
+html {
+    background-color: #F2F2F2
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Leckerli One', cursive;
+    font-size: 45px;
+    border: solid 3px black;
+    padding: 20px 0px;
+    margin: 0px;
+    background-color: #F2F2F2;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #BF7C63;
+    font-size: 24px;
+    color: #8C594D;
+}
+button {
+    background-color: #BF7C63;
+    border: none;
+    font-size: 24px;
+}
+
+.navig {
+    padding: 20px 30px;
+}
+#gallery {
+    display: flex;
+    flex-direction: row;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 50px;
+  }
+  
+ .column {
+    flex: 23%;
+    max-width: 23%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+ 
