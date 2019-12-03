@@ -9,12 +9,16 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: solid 2px black;
+    background-color: #BF7C63;
     font-size: 24px;
+    color: #8C594D;
 }
 
 .navig {
     padding: 20px 30px;
+}
+a:visited {
+    color: #F2F2F2;
 }
 /*FORM*/
 

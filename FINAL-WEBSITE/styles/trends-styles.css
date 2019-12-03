@@ -29,3 +29,6 @@ button {
 .navig {
     padding: 20px 30px;
 }
+a:visited {
+    color: #F2F2F2;
+}

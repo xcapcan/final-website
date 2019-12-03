@@ -64,7 +64,7 @@ button {
     width: 220px;
     padding: 0px; 
 }
-#news-pic {
+.news-pic {
  
     justify-content: flex-end;
     margin-left: 300px;
@@ -72,16 +72,16 @@ button {
     margin-top: 8px;
     margin-bottom: 5px;
 }
-#news-text{
+.news-text{
     margin-left: 50px;
-    font-size: 20px;
+    font-size: 15px;
 }
-#news-button {
+.news-button {
     background-color: #034AA6;
     color: white;
 
 }
-#news-button:hover {
+.news-button:hover {
     background-color: #F2C063;
 }
 #latest {
@@ -93,7 +93,9 @@ button {
     padding: 40px; 
     padding-right: 0px;
 }
-
+a:visited {
+    color: #F2F2F2;
+}
 /*FORM template got from w3schools*/
 
 /* Style the form element with a border around it */
@@ -132,3 +134,4 @@ form {
   input[type=submit]:hover {
     background-color: #F2C063;
   }
+  

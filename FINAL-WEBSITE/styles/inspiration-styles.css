@@ -51,5 +51,8 @@ button {
     vertical-align: middle;
     width: 100%;
   }
-  
+
+  a:visited {
+    color: #F2F2F2;
+}
  
