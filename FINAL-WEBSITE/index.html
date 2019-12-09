@@ -7,16 +7,17 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Little Fashion Closet</h1>
-        <nav>
-            <ul>
-                <button><a class="navig" href="index.html">Home</a></button>
-                <button><a class="navig" href="inspiration.html">Inspiration</a></button>
-                <button><a class="navig" href="styling.html">Styles</a></button>
-                <button><a class="navig" href="trends.html">Trends</a></button>
-                <button><a class="navig" href="newsletter.html">Newsletter</a></button>
-            </ul>
-        </nav>
+        <header>
+            <h1>Little Fashion Closet</h1>
+            <nav>
+                <ul>
+                    <li><a class="navig" href="index.html">Home</a></li>
+                    <li><a class="navig" href="inspiration.html">Inspiration</a>
+                    <li><a class="navig" href="styling.html">Styles</a></li>
+                    <li><a class="navig" href="newsletter.html">Newsletter</a></li>
+                </ul>
+            </nav>
+        </header>
         <main>
             <div id="landing">
                 <img id="landing-img" src="images/landing.jpg" alt="Four women dressed in trendy high-end clothing">
@@ -34,7 +35,7 @@
                     <img class="news-img" src="https://assets.vogue.com/photos/5ddb1459ae7f480009748905/master/w_1600,c_limit/GettyImages-1189823215.jpg" alt="Celebrity Ciara at the American Music Awards">
                     </div>
                 </div>
-                <div class="news-article" id="news-one">
+                <div class="news-article" id="news-two">
                         <div class="news-text">
                         <h2>6 Outdated Color Trends to Retire in 2020—and 6 to Wear Instead</h2>
                         <p>via whowhatwear</p>
@@ -47,25 +48,30 @@
             </section>
 
             <section id="form">
-                    <form>
-                            <div class="container">
-                              <h2>Subscribe to our Newsletter</h2>
-                              <p>Get exclusive updates sooner than anyone.</p>
-                            </div>
-                          
-                            <div class="container" style="background-color:white">
-                              <input type="text" placeholder="Name" name="name" required>
-                              <input type="text" placeholder="Email address" name="mail" required>
-                              <label>
-                                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
-                              </label>
-                            </div>
-                          
-                            <div class="container">
-                              <input type="submit" value="Subscribe">
-                            </div>
-                          </form>
-            </section>
+                <form>
+                        <div class="container">
+                          <h2>Subscribe to our Newsletter</h2>
+                          <p>Get exclusive updates sooner than anyone.</p>
+                        </div>
+                      
+                        <div>
+                            <input id="name" name="name" type="text" required>
+                            <label for="name">Your Name</label>
+                          </div>
+                          <div>
+                            <input id="email" name="email" type="email" required>
+                            <label for="phone">Email</label>
+                          </div>
+                          <div>
+                            <textarea id="message" name="phone" required></textarea>
+                            <label for="message">Message</label>
+                          </div>
+                      
+                        <div class="container">
+                          <input type="submit" value="Subscribe">
+                        </div>
+                      </form>
+        </section>
         </main>
     </body>
 </html> 

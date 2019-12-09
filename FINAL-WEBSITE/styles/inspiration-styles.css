@@ -29,6 +29,8 @@ button {
 .navig {
     padding: 20px 30px;
 }
+nav ul { list-style-type: none }
+nav ul li { display: inline-block } 
 #gallery {
     display: flex;
     flex-direction: row;
